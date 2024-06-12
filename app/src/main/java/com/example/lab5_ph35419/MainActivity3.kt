@@ -180,6 +180,10 @@ class MainActivity3 : ComponentActivity() {
         }
     }
 
+    @Composable
+    fun test(){
+        Text(text = "Nhìn con cặc gì, bố mày đang test thôi")
+    }
 
     @OptIn(ExperimentalMaterial3Api::class)
     @Composable
